@@ -45,7 +45,7 @@ date,county,state,fips,cases,deaths
 3,Cook County,IL,17031,4496,61
 3,Suffolk County,MA,25025,1373,8
 3,Douglas County,NE,31055,113,1
-3,New York City County,NY,NA,43518,1475
+3,New York County,NY,36061,43518,1475
 3,Washington County,OR,41067,186,3
 3,Bexar County,TX,48029,207,9
 3,Salt Lake County,UT,49035,396,0
@@ -104,7 +104,7 @@ date,county,state,fips,cases,deaths
 3,Madera County,CA,06039,23,1
 3,Riverside County,CA,06065,371,13
 3,Santa Cruz County,CA,06087,49,1
-3,District of Columbia County,NA,11001,495,9
+3,District of Columbia County,DC,11001,495,9
 3,Charlotte County,FL,12015,24,0
 3,Okaloosa County,FL,12091,39,1
 3,Volusia County,FL,12127,80,1
@@ -2233,7 +2233,7 @@ date,county,state,fips,cases,deaths
 4,Pima County,AZ,04019,1241,80
 4,Pinal County,AZ,04021,397,11
 4,Santa Cruz County,AZ,04023,33,0
-4,Unknown County,AZ,NA,172784,17809
+4,New York County,NY,36061,172784,17809
 4,Yavapai County,AZ,04025,79,2
 4,Yuma County,AZ,04027,78,1
 4,Arkansas County,AR,05001,2,0
@@ -2402,7 +2402,7 @@ date,county,state,fips,cases,deaths
 4,Kent County,DE,10001,759,26
 4,New Castle County,DE,10003,1734,68
 4,Sussex County,DE,10005,2216,58
-4,District of Columbia County,NA,11001,4323,224
+4,District of Columbia County,DC,11001,4323,224
 4,Alachua County,FL,12001,267,5
 4,Baker County,FL,12003,20,3
 4,Bay County,FL,12005,72,3
@@ -4600,9 +4600,6 @@ date,county,state,fips,cases,deaths
 4,Curry County,OR,41015,4,0
 4,Pecos County,TX,48371,9,0
 4,Zapata County,TX,48505,7,0
-4,St. Croix County,NA,78010,27,0
-4,St. John County,NA,78020,2,0
-4,St. Thomas County,NA,78030,37,0
 4,Appomattox County,VA,51011,20,0
 4,Giles County,VA,51071,4,0
 4,Russell County,VA,51167,3,0
@@ -5144,7 +5141,7 @@ date,county,state,fips,cases,deaths
 5,St. Francis County,AR,05123,672,1
 5,Stone County,AR,05137,9,0
 5,Union County,AR,05139,173,8
-5,Unknown County,AR,NA,208085,21050
+5,New York County,NY,36061,208085,21050
 5,Van Buren County,AR,05141,28,2
 5,Washington County,AR,05143,509,7
 5,White County,AR,05145,44,1
@@ -5271,7 +5268,7 @@ date,county,state,fips,cases,deaths
 5,Kent County,DE,10001,1436,63
 5,New Castle County,DE,10003,3758,170
 5,Sussex County,DE,10005,4253,133
-5,District of Columbia County,NA,11001,8801,466
+5,District of Columbia County,DC,11001,8801,466
 5,Alachua County,FL,12001,380,7
 5,Baker County,FL,12003,29,3
 5,Bay County,FL,12005,98,3
@@ -7509,9 +7506,6 @@ date,county,state,fips,cases,deaths
 5,Washington County,VT,50023,39,1
 5,Windham County,VT,50025,81,3
 5,Windsor County,VT,50027,51,2
-5,St. Croix County,NA,78010,30,0
-5,St. John County,NA,78020,2,0
-5,St. Thomas County,NA,78030,38,0
 5,Accomack County,VA,51001,909,12
 5,Albemarle County,VA,51003,187,8
 5,Alexandria city County,VA,51510,1974,44
@@ -7836,81 +7830,6 @@ date,county,state,fips,cases,deaths
 5,Refugio County,TX,48391,3,0
 5,Pope County,MN,27121,9,0
 5,Mercer County,ND,38057,5,0
-5,Adjuntas County,NA,72001,23,0
-5,Aguada County,NA,72003,20,0
-5,Aguadilla County,NA,72005,21,0
-5,Aguas Buenas County,NA,72007,38,0
-5,Aibonito County,NA,72009,24,0
-5,Anasco County,NA,72011,22,0
-5,Arecibo County,NA,72013,64,0
-5,Arroyo County,NA,72015,15,0
-5,Barceloneta County,NA,72017,11,0
-5,Barranquitas County,NA,72019,40,0
-5,Bayamon County,NA,72021,225,0
-5,Cabo Rojo County,NA,72023,42,0
-5,Caguas County,NA,72025,119,0
-5,Camuy County,NA,72027,9,0
-5,Canovanas County,NA,72029,72,0
-5,Carolina County,NA,72031,160,0
-5,Catano County,NA,72033,18,0
-5,Cayey County,NA,72035,52,0
-5,Ceiba County,NA,72037,14,0
-5,Ciales County,NA,72039,20,0
-5,Cidra County,NA,72041,46,0
-5,Coamo County,NA,72043,14,0
-5,Comerio County,NA,72045,24,0
-5,Corozal County,NA,72047,30,0
-5,Dorado County,NA,72051,62,0
-5,Fajardo County,NA,72053,22,0
-5,Florida County,NA,72054,14,0
-5,Guanica County,NA,72055,22,0
-5,Guayama County,NA,72057,40,0
-5,Guayanilla County,NA,72059,21,0
-5,Guaynabo County,NA,72061,198,0
-5,Gurabo County,NA,72063,48,0
-5,Hatillo County,NA,72065,17,0
-5,Hormigueros County,NA,72067,18,0
-5,Humacao County,NA,72069,44,0
-5,Isabela County,NA,72071,24,0
-5,Jayuya County,NA,72073,9,0
-5,Juana Diaz County,NA,72075,43,0
-5,Juncos County,NA,72077,21,0
-5,Lajas County,NA,72079,15,0
-5,Lares County,NA,72081,38,0
-5,Las Marias County,NA,72083,12,0
-5,Las Piedras County,NA,72085,25,0
-5,Loiza County,NA,72087,20,0
-5,Luquillo County,NA,72089,20,0
-5,Manati County,NA,72091,26,0
-5,Maunabo County,NA,72095,15,0
-5,Mayaguez County,NA,72097,92,0
-5,Moca County,NA,72099,26,0
-5,Morovis County,NA,72101,38,0
-5,Naguabo County,NA,72103,24,0
-5,Naranjito County,NA,72105,51,0
-5,Orocovis County,NA,72107,50,0
-5,Patillas County,NA,72109,33,0
-5,Penuelas County,NA,72111,13,0
-5,Ponce County,NA,72113,111,0
-5,Quebradillas County,NA,72115,28,0
-5,Rincon County,NA,72117,17,0
-5,Rio Grande County,NA,72119,53,0
-5,Sabana Grande County,NA,72121,29,0
-5,Salinas County,NA,72123,69,0
-5,San German County,NA,72125,36,0
-5,San Juan County,NA,72127,532,0
-5,San Lorenzo County,NA,72129,41,0
-5,San Sebastian County,NA,72131,47,0
-5,Santa Isabel County,NA,72133,17,0
-5,Toa Alta County,NA,72135,92,0
-5,Toa Baja County,NA,72137,100,0
-5,Trujillo Alto County,NA,72139,64,0
-5,Utuado County,NA,72141,3,0
-5,Vega Alta County,NA,72143,39,0
-5,Vega Baja County,NA,72145,42,0
-5,Villalba County,NA,72149,25,0
-5,Yabucoa County,NA,72151,12,0
-5,Yauco County,NA,72153,53,0
 5,Bailey County,TX,48017,17,0
 5,Coke County,TX,48081,1,0
 5,Collingsworth County,TX,48087,5,0
@@ -7929,7 +7848,6 @@ date,county,state,fips,cases,deaths
 5,Lake County,MN,27075,1,0
 5,Benson County,ND,38005,2,0
 5,Traill County,ND,38097,21,0
-5,Vieques County,NA,72147,20,0
 5,Shackelford County,TX,48417,1,0
 5,Piute County,UT,49031,2,0
 5,Pope County,IL,17151,1,0
@@ -7962,7 +7880,6 @@ date,county,state,fips,cases,deaths
 5,Magoffin County,KY,21153,2,0
 5,Schuyler County,MO,29197,2,0
 5,Nuckolls County,NE,31129,1,0
-5,Maricao County,NA,72093,3,0
 5,Adams County,IA,19003,7,0
 5,Lucas County,IA,19117,17,0
 5,Steele County,ND,38091,1,0
@@ -8015,7 +7932,6 @@ date,county,state,fips,cases,deaths
 5,Texas County,MO,29215,1,0
 5,Thayer County,NE,31169,1,0
 5,Hughes County,OK,40063,1,0
-5,Culebra County,NA,72049,1,0
 5,Edmunds County,SD,46045,1,0
 5,Kingsbury County,SD,46077,1,0
 5,Bristol Bay Borough County,AK,02060,1,0
@@ -8108,7 +8024,7 @@ date,county,state,fips,cases,deaths
 6,Prince of Wales-Hyder Census Area County,AK,02198,4,0
 6,Sitka City and Borough County,AK,02220,17,0
 6,Southeast Fairbanks Census Area County,AK,02240,11,0
-6,Unknown County,AK,NA,219844,22566
+6,New York County,NY,36061,219844,22566
 6,Valdez-Cordova Census Area County,AK,02261,21,0
 6,Yukon-Koyukuk Census Area County,AK,02290,3,0
 6,Apache County,AZ,04001,2337,86
@@ -8328,7 +8244,7 @@ date,county,state,fips,cases,deaths
 6,Kent County,DE,10001,1690,89
 6,New Castle County,DE,10003,5065,244
 6,Sussex County,DE,10005,4681,176
-6,District of Columbia County,NA,11001,10327,551
+6,District of Columbia County,DC,11001,10327,551
 6,Alachua County,FL,12001,1197,12
 6,Baker County,FL,12003,63,4
 6,Bay County,FL,12005,384,4
@@ -10204,84 +10120,6 @@ date,county,state,fips,cases,deaths
 6,Westmoreland County,PA,42129,646,38
 6,Wyoming County,PA,42131,38,7
 6,York County,PA,42133,1515,48
-6,Adjuntas County,NA,72001,50,0
-6,Aguada County,NA,72003,34,0
-6,Aguadilla County,NA,72005,52,0
-6,Aguas Buenas County,NA,72007,59,0
-6,Aibonito County,NA,72009,42,0
-6,Anasco County,NA,72011,45,0
-6,Arecibo County,NA,72013,127,0
-6,Arroyo County,NA,72015,34,0
-6,Barceloneta County,NA,72017,27,0
-6,Barranquitas County,NA,72019,81,0
-6,Bayamon County,NA,72021,423,0
-6,Cabo Rojo County,NA,72023,78,0
-6,Caguas County,NA,72025,240,0
-6,Camuy County,NA,72027,38,0
-6,Canovanas County,NA,72029,144,0
-6,Carolina County,NA,72031,340,0
-6,Catano County,NA,72033,58,0
-6,Cayey County,NA,72035,109,0
-6,Ceiba County,NA,72037,26,0
-6,Ciales County,NA,72039,62,0
-6,Cidra County,NA,72041,75,0
-6,Coamo County,NA,72043,45,0
-6,Comerio County,NA,72045,47,0
-6,Corozal County,NA,72047,49,0
-6,Culebra County,NA,72049,3,0
-6,Dorado County,NA,72051,98,0
-6,Fajardo County,NA,72053,77,0
-6,Florida County,NA,72054,37,0
-6,Guanica County,NA,72055,36,0
-6,Guayama County,NA,72057,69,0
-6,Guayanilla County,NA,72059,69,0
-6,Guaynabo County,NA,72061,330,0
-6,Gurabo County,NA,72063,105,0
-6,Hatillo County,NA,72065,34,0
-6,Hormigueros County,NA,72067,30,0
-6,Humacao County,NA,72069,87,0
-6,Isabela County,NA,72071,38,0
-6,Jayuya County,NA,72073,73,0
-6,Juana Diaz County,NA,72075,82,0
-6,Juncos County,NA,72077,50,0
-6,Lajas County,NA,72079,42,0
-6,Lares County,NA,72081,79,0
-6,Las Marias County,NA,72083,18,0
-6,Las Piedras County,NA,72085,69,0
-6,Loiza County,NA,72087,50,0
-6,Luquillo County,NA,72089,41,0
-6,Manati County,NA,72091,49,0
-6,Maricao County,NA,72093,18,0
-6,Maunabo County,NA,72095,25,0
-6,Mayaguez County,NA,72097,166,0
-6,Moca County,NA,72099,43,0
-6,Morovis County,NA,72101,64,0
-6,Naguabo County,NA,72103,43,0
-6,Naranjito County,NA,72105,75,0
-6,Orocovis County,NA,72107,73,0
-6,Patillas County,NA,72109,59,0
-6,Penuelas County,NA,72111,25,0
-6,Ponce County,NA,72113,192,0
-6,Quebradillas County,NA,72115,41,0
-6,Rincon County,NA,72117,33,0
-6,Rio Grande County,NA,72119,102,0
-6,Sabana Grande County,NA,72121,56,0
-6,Salinas County,NA,72123,103,0
-6,San German County,NA,72125,65,0
-6,San Juan County,NA,72127,963,0
-6,San Lorenzo County,NA,72129,66,0
-6,San Sebastian County,NA,72131,98,0
-6,Santa Isabel County,NA,72133,53,0
-6,Toa Alta County,NA,72135,165,0
-6,Toa Baja County,NA,72137,191,0
-6,Trujillo Alto County,NA,72139,170,0
-6,Utuado County,NA,72141,13,0
-6,Vega Alta County,NA,72143,84,0
-6,Vega Baja County,NA,72145,89,0
-6,Vieques County,NA,72147,23,0
-6,Villalba County,NA,72149,45,0
-6,Yabucoa County,NA,72151,36,0
-6,Yauco County,NA,72153,90,0
 6,Bristol County,RI,44001,253,15
 6,Kent County,RI,44003,1199,93
 6,Newport County,RI,44005,308,6
@@ -10751,9 +10589,6 @@ date,county,state,fips,cases,deaths
 6,Washington County,VT,50023,41,1
 6,Windham County,VT,50025,94,3
 6,Windsor County,VT,50027,58,2
-6,St. Croix County,NA,78010,45,0
-6,St. John County,NA,78020,4,0
-6,St. Thomas County,NA,78030,41,0
 6,Accomack County,VA,51001,1042,14
 6,Albemarle County,VA,51003,401,8
 6,Alexandria city County,VA,51510,2325,57
@@ -11236,7 +11071,7 @@ date,county,state,fips,cases,deaths
 7,Prince of Wales-Hyder Census Area County,AK,02198,8,0
 7,Sitka City and Borough County,AK,02220,30,0
 7,Southeast Fairbanks Census Area County,AK,02240,26,0
-7,Unknown County,AK,NA,229834,23002
+7,New York County,NY,36061,229834,23002
 7,Valdez-Cordova Census Area County,AK,02261,88,0
 7,Wrangell City and Borough County,AK,02275,8,0
 7,Yukon-Koyukuk Census Area County,AK,02290,45,1
@@ -11458,7 +11293,7 @@ date,county,state,fips,cases,deaths
 7,Kent County,DE,10001,2167,107
 7,New Castle County,DE,10003,6794,287
 7,Sussex County,DE,10005,5608,191
-7,District of Columbia County,NA,11001,12126,585
+7,District of Columbia County,DC,11001,12126,585
 7,Alachua County,FL,12001,3526,21
 7,Baker County,FL,12003,356,4
 7,Bay County,FL,12005,3475,21
@@ -13384,84 +13219,6 @@ date,county,state,fips,cases,deaths
 7,Westmoreland County,PA,42129,1409,46
 7,Wyoming County,PA,42131,57,8
 7,York County,PA,42133,2269,86
-7,Adjuntas County,NA,72001,82,0
-7,Aguada County,NA,72003,99,0
-7,Aguadilla County,NA,72005,168,0
-7,Aguas Buenas County,NA,72007,102,0
-7,Aibonito County,NA,72009,73,0
-7,Anasco County,NA,72011,108,0
-7,Arecibo County,NA,72013,240,0
-7,Arroyo County,NA,72015,76,0
-7,Barceloneta County,NA,72017,67,0
-7,Barranquitas County,NA,72019,187,0
-7,Bayamon County,NA,72021,1064,0
-7,Cabo Rojo County,NA,72023,163,0
-7,Caguas County,NA,72025,563,0
-7,Camuy County,NA,72027,96,0
-7,Canovanas County,NA,72029,282,0
-7,Carolina County,NA,72031,848,0
-7,Catano County,NA,72033,147,0
-7,Cayey County,NA,72035,165,0
-7,Ceiba County,NA,72037,55,0
-7,Ciales County,NA,72039,115,0
-7,Cidra County,NA,72041,134,0
-7,Coamo County,NA,72043,110,0
-7,Comerio County,NA,72045,99,0
-7,Corozal County,NA,72047,145,0
-7,Culebra County,NA,72049,17,0
-7,Dorado County,NA,72051,228,0
-7,Fajardo County,NA,72053,180,0
-7,Florida County,NA,72054,136,0
-7,Guanica County,NA,72055,52,0
-7,Guayama County,NA,72057,128,0
-7,Guayanilla County,NA,72059,113,0
-7,Guaynabo County,NA,72061,668,0
-7,Gurabo County,NA,72063,197,0
-7,Hatillo County,NA,72065,80,0
-7,Hormigueros County,NA,72067,79,0
-7,Humacao County,NA,72069,152,0
-7,Isabela County,NA,72071,115,0
-7,Jayuya County,NA,72073,177,0
-7,Juana Diaz County,NA,72075,166,0
-7,Juncos County,NA,72077,97,0
-7,Lajas County,NA,72079,70,0
-7,Lares County,NA,72081,124,0
-7,Las Marias County,NA,72083,48,0
-7,Las Piedras County,NA,72085,125,0
-7,Loiza County,NA,72087,77,0
-7,Luquillo County,NA,72089,88,0
-7,Manati County,NA,72091,179,0
-7,Maricao County,NA,72093,41,0
-7,Maunabo County,NA,72095,50,0
-7,Mayaguez County,NA,72097,418,0
-7,Moca County,NA,72099,144,0
-7,Morovis County,NA,72101,197,0
-7,Naguabo County,NA,72103,81,0
-7,Naranjito County,NA,72105,207,0
-7,Orocovis County,NA,72107,162,0
-7,Patillas County,NA,72109,92,0
-7,Penuelas County,NA,72111,57,0
-7,Ponce County,NA,72113,395,0
-7,Quebradillas County,NA,72115,65,0
-7,Rincon County,NA,72117,81,0
-7,Rio Grande County,NA,72119,225,0
-7,Sabana Grande County,NA,72121,104,0
-7,Salinas County,NA,72123,132,0
-7,San German County,NA,72125,121,0
-7,San Juan County,NA,72127,2291,0
-7,San Lorenzo County,NA,72129,127,0
-7,San Sebastian County,NA,72131,170,0
-7,Santa Isabel County,NA,72133,82,0
-7,Toa Alta County,NA,72135,410,0
-7,Toa Baja County,NA,72137,395,0
-7,Trujillo Alto County,NA,72139,372,0
-7,Utuado County,NA,72141,57,0
-7,Vega Alta County,NA,72143,167,0
-7,Vega Baja County,NA,72145,290,0
-7,Vieques County,NA,72147,39,0
-7,Villalba County,NA,72149,71,0
-7,Yabucoa County,NA,72151,92,0
-7,Yauco County,NA,72153,194,0
 7,Bristol County,RI,44001,304,15
 7,Kent County,RI,44003,1421,102
 7,Newport County,RI,44005,380,6
@@ -13952,9 +13709,6 @@ date,county,state,fips,cases,deaths
 7,Washington County,VT,50023,47,2
 7,Windham County,VT,50025,101,3
 7,Windsor County,VT,50027,70,2
-7,St. Croix County,NA,78010,256,4
-7,St. John County,NA,78020,16,0
-7,St. Thomas County,NA,78030,134,4
 7,Accomack County,VA,51001,1074,15
 7,Albemarle County,VA,51003,735,11
 7,Alexandria city County,VA,51510,2798,58
@@ -14313,8 +14067,6 @@ date,county,state,fips,cases,deaths
 7,Wibaux County,MT,30109,1,0
 7,Deuel County,NE,31049,2,0
 7,Golden Valley County,ND,38033,4,0
-7,Saipan County,NA,69110,41,2
-7,Tinian County,NA,69120,1,0
 7,Kent County,TX,48263,2,0
 7,McMullen County,TX,48311,7,0
 7,Sweet Grass County,MT,30097,4,1
@@ -14428,7 +14180,7 @@ date,county,state,fips,cases,deaths
 8,Prince of Wales-Hyder Census Area County,AK,02198,25,0
 8,Sitka City and Borough County,AK,02220,51,0
 8,Southeast Fairbanks Census Area County,AK,02240,32,0
-8,Unknown County,AK,NA,238938,23695
+8,New York County,NY,36061,238938,23695
 8,Valdez-Cordova Census Area County,AK,02261,121,0
 8,Wrangell City and Borough County,AK,02275,17,0
 8,Yukon-Koyukuk Census Area County,AK,02290,73,1
@@ -14654,7 +14406,7 @@ date,county,state,fips,cases,deaths
 8,Kent County,DE,10001,2624,110
 8,New Castle County,DE,10003,8190,300
 8,Sussex County,DE,10005,6350,196
-8,District of Columbia County,NA,11001,13992,607
+8,District of Columbia County,DC,11001,13992,607
 8,Alachua County,FL,12001,5196,33
 8,Baker County,FL,12003,1153,5
 8,Bay County,FL,12005,5363,78
@@ -16352,8 +16104,6 @@ date,county,state,fips,cases,deaths
 8,Ward County,ND,38101,502,1
 8,Wells County,ND,38103,28,0
 8,Williams County,ND,38105,429,2
-8,Saipan County,NA,69110,53,2
-8,Tinian County,NA,69120,1,0
 8,Adams County,OH,39001,93,4
 8,Allen County,OH,39003,1150,53
 8,Ashland County,OH,39005,167,4
@@ -16621,84 +16371,6 @@ date,county,state,fips,cases,deaths
 8,Westmoreland County,PA,42129,1815,49
 8,Wyoming County,PA,42131,67,8
 8,York County,PA,42133,3368,122
-8,Adjuntas County,NA,72001,121,0
-8,Aguada County,NA,72003,221,0
-8,Aguadilla County,NA,72005,326,0
-8,Aguas Buenas County,NA,72007,200,0
-8,Aibonito County,NA,72009,122,0
-8,Anasco County,NA,72011,192,0
-8,Arecibo County,NA,72013,510,0
-8,Arroyo County,NA,72015,127,0
-8,Barceloneta County,NA,72017,124,0
-8,Barranquitas County,NA,72019,332,0
-8,Bayamon County,NA,72021,2590,0
-8,Cabo Rojo County,NA,72023,280,0
-8,Caguas County,NA,72025,1092,0
-8,Camuy County,NA,72027,191,0
-8,Canovanas County,NA,72029,522,0
-8,Carolina County,NA,72031,1886,0
-8,Catano County,NA,72033,305,0
-8,Cayey County,NA,72035,269,0
-8,Ceiba County,NA,72037,88,0
-8,Ciales County,NA,72039,190,0
-8,Cidra County,NA,72041,239,0
-8,Coamo County,NA,72043,211,0
-8,Comerio County,NA,72045,173,0
-8,Corozal County,NA,72047,415,0
-8,Culebra County,NA,72049,20,0
-8,Dorado County,NA,72051,514,0
-8,Fajardo County,NA,72053,349,0
-8,Florida County,NA,72054,208,0
-8,Guanica County,NA,72055,82,0
-8,Guayama County,NA,72057,231,0
-8,Guayanilla County,NA,72059,146,0
-8,Guaynabo County,NA,72061,1267,0
-8,Gurabo County,NA,72063,357,0
-8,Hatillo County,NA,72065,190,0
-8,Hormigueros County,NA,72067,124,0
-8,Humacao County,NA,72069,299,0
-8,Isabela County,NA,72071,205,0
-8,Jayuya County,NA,72073,206,0
-8,Juana Diaz County,NA,72075,262,0
-8,Juncos County,NA,72077,240,0
-8,Lajas County,NA,72079,118,0
-8,Lares County,NA,72081,238,0
-8,Las Marias County,NA,72083,80,0
-8,Las Piedras County,NA,72085,274,0
-8,Loiza County,NA,72087,183,0
-8,Luquillo County,NA,72089,175,0
-8,Manati County,NA,72091,357,0
-8,Maricao County,NA,72093,56,0
-8,Maunabo County,NA,72095,88,0
-8,Mayaguez County,NA,72097,639,0
-8,Moca County,NA,72099,255,0
-8,Morovis County,NA,72101,397,0
-8,Naguabo County,NA,72103,138,0
-8,Naranjito County,NA,72105,466,0
-8,Orocovis County,NA,72107,273,0
-8,Patillas County,NA,72109,134,0
-8,Penuelas County,NA,72111,98,0
-8,Ponce County,NA,72113,656,0
-8,Quebradillas County,NA,72115,117,0
-8,Rincon County,NA,72117,124,0
-8,Rio Grande County,NA,72119,436,0
-8,Sabana Grande County,NA,72121,164,0
-8,Salinas County,NA,72123,310,0
-8,San German County,NA,72125,193,0
-8,San Juan County,NA,72127,5319,0
-8,San Lorenzo County,NA,72129,267,0
-8,San Sebastian County,NA,72131,276,0
-8,Santa Isabel County,NA,72133,129,0
-8,Toa Alta County,NA,72135,920,0
-8,Toa Baja County,NA,72137,895,0
-8,Trujillo Alto County,NA,72139,746,0
-8,Utuado County,NA,72141,100,0
-8,Vega Alta County,NA,72143,475,0
-8,Vega Baja County,NA,72145,655,0
-8,Vieques County,NA,72147,86,0
-8,Villalba County,NA,72149,97,0
-8,Yabucoa County,NA,72151,203,0
-8,Yauco County,NA,72153,316,0
 8,Bristol County,RI,44001,349,16
 8,Kent County,RI,44003,1664,103
 8,Newport County,RI,44005,434,6
@@ -17202,9 +16874,6 @@ date,county,state,fips,cases,deaths
 8,Washington County,VT,50023,62,2
 8,Windham County,VT,50025,123,3
 8,Windsor County,VT,50027,79,2
-8,St. Croix County,NA,78010,422,5
-8,St. John County,NA,78020,37,0
-8,St. Thomas County,NA,78030,680,10
 8,Accomack County,VA,51001,1145,19
 8,Albemarle County,VA,51003,1034,18
 8,Alexandria city County,VA,51510,3378,64
@@ -17632,7 +17301,7 @@ date,county,state,fips,cases,deaths
 9,Prince of Wales-Hyder Census Area County,AK,02198,31,0
 9,Sitka City and Borough County,AK,02220,68,0
 9,Southeast Fairbanks Census Area County,AK,02240,41,0
-9,Unknown County,AK,NA,248738,23823
+9,New York County,NY,36061,248738,23823
 9,Valdez-Cordova Census Area County,AK,02261,126,0
 9,Wrangell City and Borough County,AK,02275,19,0
 9,Yukon-Koyukuk Census Area County,AK,02290,83,2
@@ -17858,7 +17527,7 @@ date,county,state,fips,cases,deaths
 9,Kent County,DE,10001,2963,117
 9,New Castle County,DE,10003,10368,312
 9,Sussex County,DE,10005,6791,207
-9,District of Columbia County,NA,11001,15326,627
+9,District of Columbia County,DC,11001,15326,627
 9,Alachua County,FL,12001,8293,60
 9,Baker County,FL,12003,1484,13
 9,Bay County,FL,12005,6124,108
@@ -19569,8 +19238,6 @@ date,county,state,fips,cases,deaths
 9,Ward County,ND,38101,1123,11
 9,Wells County,ND,38103,38,0
 9,Williams County,ND,38105,1086,7
-9,Saipan County,NA,69110,68,2
-9,Tinian County,NA,69120,2,0
 9,Adams County,OH,39001,139,4
 9,Allen County,OH,39003,1479,72
 9,Ashland County,OH,39005,261,4
@@ -19838,84 +19505,6 @@ date,county,state,fips,cases,deaths
 9,Westmoreland County,PA,42129,2277,56
 9,Wyoming County,PA,42131,78,8
 9,York County,PA,42133,4941,159
-9,Adjuntas County,NA,72001,150,0
-9,Aguada County,NA,72003,348,0
-9,Aguadilla County,NA,72005,439,0
-9,Aguas Buenas County,NA,72007,287,0
-9,Aibonito County,NA,72009,158,0
-9,Anasco County,NA,72011,226,0
-9,Arecibo County,NA,72013,849,0
-9,Arroyo County,NA,72015,169,0
-9,Barceloneta County,NA,72017,250,0
-9,Barranquitas County,NA,72019,488,0
-9,Bayamon County,NA,72021,3873,0
-9,Cabo Rojo County,NA,72023,349,0
-9,Caguas County,NA,72025,1658,0
-9,Camuy County,NA,72027,297,0
-9,Canovanas County,NA,72029,734,0
-9,Carolina County,NA,72031,2924,0
-9,Catano County,NA,72033,470,0
-9,Cayey County,NA,72035,363,0
-9,Ceiba County,NA,72037,144,0
-9,Ciales County,NA,72039,270,0
-9,Cidra County,NA,72041,342,0
-9,Coamo County,NA,72043,307,0
-9,Comerio County,NA,72045,254,0
-9,Corozal County,NA,72047,638,0
-9,Culebra County,NA,72049,23,0
-9,Dorado County,NA,72051,816,0
-9,Fajardo County,NA,72053,571,0
-9,Florida County,NA,72054,275,0
-9,Guanica County,NA,72055,107,0
-9,Guayama County,NA,72057,302,0
-9,Guayanilla County,NA,72059,183,0
-9,Guaynabo County,NA,72061,1806,0
-9,Gurabo County,NA,72063,562,0
-9,Hatillo County,NA,72065,322,0
-9,Hormigueros County,NA,72067,175,0
-9,Humacao County,NA,72069,564,0
-9,Isabela County,NA,72071,277,0
-9,Jayuya County,NA,72073,233,0
-9,Juana Diaz County,NA,72075,355,0
-9,Juncos County,NA,72077,410,0
-9,Lajas County,NA,72079,169,0
-9,Lares County,NA,72081,346,0
-9,Las Marias County,NA,72083,109,0
-9,Las Piedras County,NA,72085,504,0
-9,Loiza County,NA,72087,289,0
-9,Luquillo County,NA,72089,274,0
-9,Manati County,NA,72091,586,0
-9,Maricao County,NA,72093,85,0
-9,Maunabo County,NA,72095,126,0
-9,Mayaguez County,NA,72097,836,0
-9,Moca County,NA,72099,360,0
-9,Morovis County,NA,72101,529,0
-9,Naguabo County,NA,72103,215,0
-9,Naranjito County,NA,72105,637,0
-9,Orocovis County,NA,72107,349,0
-9,Patillas County,NA,72109,176,0
-9,Penuelas County,NA,72111,123,0
-9,Ponce County,NA,72113,952,0
-9,Quebradillas County,NA,72115,183,0
-9,Rincon County,NA,72117,196,0
-9,Rio Grande County,NA,72119,618,0
-9,Sabana Grande County,NA,72121,203,0
-9,Salinas County,NA,72123,449,0
-9,San German County,NA,72125,265,0
-9,San Juan County,NA,72127,7885,0
-9,San Lorenzo County,NA,72129,525,0
-9,San Sebastian County,NA,72131,397,0
-9,Santa Isabel County,NA,72133,181,0
-9,Toa Alta County,NA,72135,1321,0
-9,Toa Baja County,NA,72137,1444,0
-9,Trujillo Alto County,NA,72139,1136,0
-9,Utuado County,NA,72141,153,0
-9,Vega Alta County,NA,72143,780,0
-9,Vega Baja County,NA,72145,999,0
-9,Vieques County,NA,72147,93,0
-9,Villalba County,NA,72149,136,0
-9,Yabucoa County,NA,72151,323,0
-9,Yauco County,NA,72153,415,0
 9,Bristol County,RI,44001,414,16
 9,Kent County,RI,44003,1945,111
 9,Newport County,RI,44005,530,8
@@ -20421,9 +20010,6 @@ date,county,state,fips,cases,deaths
 9,Washington County,VT,50023,78,2
 9,Windham County,VT,50025,123,3
 9,Windsor County,VT,50027,87,2
-9,St. Croix County,NA,78010,495,6
-9,St. John County,NA,78020,60,1
-9,St. Thomas County,NA,78030,764,13
 9,Accomack County,VA,51001,1182,19
 9,Albemarle County,VA,51003,1306,21
 9,Alexandria city County,VA,51510,3852,69
@@ -20843,7 +20429,7 @@ date,county,state,fips,cases,deaths
 10,Prince of Wales-Hyder Census Area County,AK,02198,34,1
 10,Sitka City and Borough County,AK,02220,81,0
 10,Southeast Fairbanks Census Area County,AK,02240,86,1
-10,Unknown County,AK,NA,267929,24001
+10,New York County,NY,36061,267929,24001
 10,Valdez-Cordova Census Area County,AK,02261,170,1
 10,Wrangell City and Borough County,AK,02275,19,0
 10,Yukon-Koyukuk Census Area County,AK,02290,120,2
@@ -21070,7 +20656,7 @@ date,county,state,fips,cases,deaths
 10,Kent County,DE,10001,3569,120
 10,New Castle County,DE,10003,13192,353
 10,Sussex County,DE,10005,8099,235
-10,District of Columbia County,NA,11001,17266,646
+10,District of Columbia County,DC,11001,17266,646
 10,Alachua County,FL,12001,10582,76
 10,Baker County,FL,12003,1795,23
 10,Bay County,FL,12005,6866,134
@@ -22785,8 +22371,6 @@ date,county,state,fips,cases,deaths
 10,Ward County,ND,38101,3422,54
 10,Wells County,ND,38103,186,0
 10,Williams County,ND,38105,1967,18
-10,Saipan County,NA,69110,90,2
-10,Tinian County,NA,69120,2,0
 10,Adams County,OH,39001,265,6
 10,Allen County,OH,39003,2555,80
 10,Ashland County,OH,39005,495,9
@@ -23054,84 +22638,6 @@ date,county,state,fips,cases,deaths
 10,Westmoreland County,PA,42129,4472,103
 10,Wyoming County,PA,42131,162,8
 10,York County,PA,42133,6716,207
-10,Adjuntas County,NA,72001,194,0
-10,Aguada County,NA,72003,458,0
-10,Aguadilla County,NA,72005,620,0
-10,Aguas Buenas County,NA,72007,385,0
-10,Aibonito County,NA,72009,220,0
-10,Anasco County,NA,72011,302,0
-10,Arecibo County,NA,72013,1117,0
-10,Arroyo County,NA,72015,205,0
-10,Barceloneta County,NA,72017,322,0
-10,Barranquitas County,NA,72019,635,0
-10,Bayamon County,NA,72021,5042,0
-10,Cabo Rojo County,NA,72023,529,0
-10,Caguas County,NA,72025,2263,0
-10,Camuy County,NA,72027,392,0
-10,Canovanas County,NA,72029,952,0
-10,Carolina County,NA,72031,4145,0
-10,Catano County,NA,72033,618,0
-10,Cayey County,NA,72035,533,0
-10,Ceiba County,NA,72037,203,0
-10,Ciales County,NA,72039,352,0
-10,Cidra County,NA,72041,450,0
-10,Coamo County,NA,72043,431,0
-10,Comerio County,NA,72045,293,0
-10,Corozal County,NA,72047,907,0
-10,Culebra County,NA,72049,23,0
-10,Dorado County,NA,72051,1150,0
-10,Fajardo County,NA,72053,754,0
-10,Florida County,NA,72054,398,0
-10,Guanica County,NA,72055,169,0
-10,Guayama County,NA,72057,388,0
-10,Guayanilla County,NA,72059,260,0
-10,Guaynabo County,NA,72061,2356,0
-10,Gurabo County,NA,72063,789,0
-10,Hatillo County,NA,72065,449,0
-10,Hormigueros County,NA,72067,223,0
-10,Humacao County,NA,72069,813,0
-10,Isabela County,NA,72071,400,0
-10,Jayuya County,NA,72073,292,0
-10,Juana Diaz County,NA,72075,459,0
-10,Juncos County,NA,72077,611,0
-10,Lajas County,NA,72079,220,0
-10,Lares County,NA,72081,457,0
-10,Las Marias County,NA,72083,130,0
-10,Las Piedras County,NA,72085,702,0
-10,Loiza County,NA,72087,387,0
-10,Luquillo County,NA,72089,332,0
-10,Manati County,NA,72091,767,0
-10,Maricao County,NA,72093,96,0
-10,Maunabo County,NA,72095,176,0
-10,Mayaguez County,NA,72097,1015,0
-10,Moca County,NA,72099,476,0
-10,Morovis County,NA,72101,621,0
-10,Naguabo County,NA,72103,393,0
-10,Naranjito County,NA,72105,851,0
-10,Orocovis County,NA,72107,438,0
-10,Patillas County,NA,72109,205,0
-10,Penuelas County,NA,72111,156,0
-10,Ponce County,NA,72113,1269,0
-10,Quebradillas County,NA,72115,277,0
-10,Rincon County,NA,72117,243,0
-10,Rio Grande County,NA,72119,874,0
-10,Sabana Grande County,NA,72121,241,0
-10,Salinas County,NA,72123,554,0
-10,San German County,NA,72125,328,0
-10,San Juan County,NA,72127,10604,0
-10,San Lorenzo County,NA,72129,736,0
-10,San Sebastian County,NA,72131,770,0
-10,Santa Isabel County,NA,72133,258,0
-10,Toa Alta County,NA,72135,1786,0
-10,Toa Baja County,NA,72137,2020,0
-10,Trujillo Alto County,NA,72139,1613,0
-10,Utuado County,NA,72141,268,0
-10,Vega Alta County,NA,72143,989,0
-10,Vega Baja County,NA,72145,1249,0
-10,Vieques County,NA,72147,104,0
-10,Villalba County,NA,72149,250,0
-10,Yabucoa County,NA,72151,487,0
-10,Yauco County,NA,72153,587,0
 10,Bristol County,RI,44001,558,19
 10,Kent County,RI,44003,2566,121
 10,Newport County,RI,44005,678,8
@@ -23639,9 +23145,6 @@ date,county,state,fips,cases,deaths
 10,Washington County,VT,50023,134,2
 10,Windham County,VT,50025,152,3
 10,Windsor County,VT,50027,128,2
-10,St. Croix County,NA,78010,512,6
-10,St. John County,NA,78020,68,1
-10,St. Thomas County,NA,78030,796,14
 10,Accomack County,VA,51001,1223,19
 10,Albemarle County,VA,51003,1612,24
 10,Alexandria city County,VA,51510,4337,75
@@ -24060,7 +23563,7 @@ date,county,state,fips,cases,deaths
 11,Sitka City and Borough County,AK,02220,141,0
 11,Skagway Municipality County,AK,02230,8,0
 11,Southeast Fairbanks Census Area County,AK,02240,190,1
-11,Unknown County,AK,NA,293592,24167
+11,New York County,NY,36061,293592,24167
 11,Valdez-Cordova Census Area County,AK,02261,227,1
 11,Wrangell City and Borough County,AK,02275,20,0
 11,Yukon-Koyukuk Census Area County,AK,02290,145,2
@@ -24287,7 +23790,7 @@ date,county,state,fips,cases,deaths
 11,Kent County,DE,10001,4225,122
 11,New Castle County,DE,10003,16490,369
 11,Sussex County,DE,10005,9341,251
-11,District of Columbia County,NA,11001,19678,667
+11,District of Columbia County,DC,11001,19678,667
 11,Alachua County,FL,12001,12113,91
 11,Baker County,FL,12003,1941,29
 11,Bay County,FL,12005,7912,147
@@ -26004,8 +25507,6 @@ date,county,state,fips,cases,deaths
 11,Ward County,ND,38101,6560,105
 11,Wells County,ND,38103,280,3
 11,Williams County,ND,38105,2724,22
-11,Saipan County,NA,69110,100,2
-11,Tinian County,NA,69120,2,0
 11,Adams County,OH,39001,637,10
 11,Allen County,OH,39003,4194,81
 11,Ashland County,OH,39005,881,21
@@ -26274,84 +25775,6 @@ date,county,state,fips,cases,deaths
 11,Westmoreland County,PA,42129,6908,150
 11,Wyoming County,PA,42131,362,16
 11,York County,PA,42133,8825,231
-11,Adjuntas County,NA,72001,222,0
-11,Aguada County,NA,72003,569,0
-11,Aguadilla County,NA,72005,781,0
-11,Aguas Buenas County,NA,72007,471,0
-11,Aibonito County,NA,72009,267,0
-11,Anasco County,NA,72011,422,0
-11,Arecibo County,NA,72013,1380,0
-11,Arroyo County,NA,72015,227,0
-11,Barceloneta County,NA,72017,397,0
-11,Barranquitas County,NA,72019,757,0
-11,Bayamon County,NA,72021,5901,0
-11,Cabo Rojo County,NA,72023,599,0
-11,Caguas County,NA,72025,2831,0
-11,Camuy County,NA,72027,542,0
-11,Canovanas County,NA,72029,1076,0
-11,Carolina County,NA,72031,4790,0
-11,Catano County,NA,72033,731,0
-11,Cayey County,NA,72035,633,0
-11,Ceiba County,NA,72037,227,0
-11,Ciales County,NA,72039,436,0
-11,Cidra County,NA,72041,551,0
-11,Coamo County,NA,72043,509,0
-11,Comerio County,NA,72045,360,0
-11,Corozal County,NA,72047,1066,0
-11,Culebra County,NA,72049,25,0
-11,Dorado County,NA,72051,1330,0
-11,Fajardo County,NA,72053,831,0
-11,Florida County,NA,72054,467,0
-11,Guanica County,NA,72055,188,0
-11,Guayama County,NA,72057,472,0
-11,Guayanilla County,NA,72059,291,0
-11,Guaynabo County,NA,72061,2722,0
-11,Gurabo County,NA,72063,950,0
-11,Hatillo County,NA,72065,521,0
-11,Hormigueros County,NA,72067,255,0
-11,Humacao County,NA,72069,932,0
-11,Isabela County,NA,72071,540,0
-11,Jayuya County,NA,72073,342,0
-11,Juana Diaz County,NA,72075,574,0
-11,Juncos County,NA,72077,750,0
-11,Lajas County,NA,72079,245,0
-11,Lares County,NA,72081,565,0
-11,Las Marias County,NA,72083,147,0
-11,Las Piedras County,NA,72085,799,0
-11,Loiza County,NA,72087,485,0
-11,Luquillo County,NA,72089,366,0
-11,Manati County,NA,72091,906,0
-11,Maricao County,NA,72093,97,0
-11,Maunabo County,NA,72095,192,0
-11,Mayaguez County,NA,72097,1177,0
-11,Moca County,NA,72099,655,0
-11,Morovis County,NA,72101,728,0
-11,Naguabo County,NA,72103,446,0
-11,Naranjito County,NA,72105,946,0
-11,Orocovis County,NA,72107,507,0
-11,Patillas County,NA,72109,228,0
-11,Penuelas County,NA,72111,210,0
-11,Ponce County,NA,72113,1488,0
-11,Quebradillas County,NA,72115,360,0
-11,Rincon County,NA,72117,264,0
-11,Rio Grande County,NA,72119,999,0
-11,Sabana Grande County,NA,72121,258,0
-11,Salinas County,NA,72123,669,0
-11,San German County,NA,72125,382,0
-11,San Juan County,NA,72127,12028,0
-11,San Lorenzo County,NA,72129,858,0
-11,San Sebastian County,NA,72131,1025,0
-11,Santa Isabel County,NA,72133,331,0
-11,Toa Alta County,NA,72135,2167,0
-11,Toa Baja County,NA,72137,2390,0
-11,Trujillo Alto County,NA,72139,1899,0
-11,Utuado County,NA,72141,374,0
-11,Vega Alta County,NA,72143,1147,0
-11,Vega Baja County,NA,72145,1496,0
-11,Vieques County,NA,72147,107,0
-11,Villalba County,NA,72149,408,0
-11,Yabucoa County,NA,72151,548,0
-11,Yauco County,NA,72153,695,0
 11,Bristol County,RI,44001,1044,26
 11,Kent County,RI,44003,4152,133
 11,Newport County,RI,44005,1046,8
@@ -26860,9 +26283,6 @@ date,county,state,fips,cases,deaths
 11,Washington County,VT,50023,470,2
 11,Windham County,VT,50025,185,3
 11,Windsor County,VT,50027,158,2
-11,St. Croix County,NA,78010,568,7
-11,St. John County,NA,78020,75,1
-11,St. Thomas County,NA,78030,826,15
 11,Accomack County,VA,51001,1279,21
 11,Albemarle County,VA,51003,1755,26
 11,Alexandria city County,VA,51510,4797,77
